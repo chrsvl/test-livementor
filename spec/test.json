@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "hash": {
+      "other_hash": {
+        "item_1": 9,
+        "item_2": "bb",
+        "array": [1, 2]
+      }
+    },
+    "string": "stringa"
+  },
+  {
+    "id": 2,
+    "hash": {
+      "other_hash": {
+        "item_1": 10,
+        "item_2": "dd",
+        "array": [3, 4]
+      }
+    },
+    "string": "stringb"
+  }
+]
