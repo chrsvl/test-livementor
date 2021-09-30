@@ -71,6 +71,9 @@ module JsonToCsv
           formatted_key = "#{parent_key}.#{formatted_key}" if parent_key
           accumulator[formatted_key] = formatted_value
         end
+        # In the case of a Hash, we will have several keys and values
+        # to add to the CSV row. The unpacking will be done by iterating
+        # other the arrays. See line 27.
         [headers_and_values.keys.flatten, headers_and_values.values.flatten]
       else
         [parent_key || key, value]
