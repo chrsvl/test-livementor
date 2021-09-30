@@ -1,7 +1,7 @@
 # JSON to CSV converter
 
 This gem will convert a valid JSON file into a CSV file (using commas as separators).
-It has not published on Rubygem, so the best way to interact with it is to install it locally.
+It has not been published on Rubygem, so the best way to interact with it is to install it locally.
 
 ## Installation
 ```
